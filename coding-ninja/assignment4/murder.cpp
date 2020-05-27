@@ -6,7 +6,7 @@ long long int merge(int a[], int start, int end, int mid) {
     long long int present_sum = 0;
     int temp[end-start+1];
     while(i<mid && j<=end) {
-        if (a[i]<=a[j]){
+        if (a[i]<a[j]){
             present_sum += a[i];
             temp[k++] = a[i++];
         } else {
