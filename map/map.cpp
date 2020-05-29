@@ -21,6 +21,7 @@ int main()
 	umap.insert(make_pair("e", 2.718));
 
 	string key = "PI";
+    string x = "hello";
 
 	// If key not found in map iterator to end is returned
 	if (umap.find(key) == umap.end())

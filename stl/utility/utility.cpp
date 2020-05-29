@@ -20,5 +20,9 @@ int main() {
     cout << min(x, y) << endl;
     cout << lower_bound(v.begin(), v.end(), make_pair(2,0)) - v.begin() << endl;
     cout << v[6].first << " " << v[6].second;
+    swap(v[0], v[5]);
+    cout << v[0].first << " " << v[0].second << endl;
+    cout << v[5].first << " " << v[5].second << endl;
+
     return 0;
 }

@@ -2,6 +2,7 @@
 #include<iostream>
 #include<string>
 #include<map>
+#include <utility>
 
 using namespace std;
 int main()
@@ -19,7 +20,6 @@ int main()
 
     // last name is ignored
     students[names.substr(0)]++;
-   
     int more_than_once = 0;
     map<string,int>::iterator it;
     for (it=students.begin(); it!=students.end(); it++) {
